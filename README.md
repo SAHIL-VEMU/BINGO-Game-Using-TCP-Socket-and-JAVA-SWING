@@ -1,1 +1,1 @@
-# BINGO-Game_Using-TCP-Socket-and-JAVA-SWING
+# BINGO-Game-Using-TCP-Socket-and-JAVA-SWING
