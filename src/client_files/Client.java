@@ -1,3 +1,5 @@
+package src.client_files;
+
 import java.io.*;
 import java.net.*;
 import java.awt.*;
