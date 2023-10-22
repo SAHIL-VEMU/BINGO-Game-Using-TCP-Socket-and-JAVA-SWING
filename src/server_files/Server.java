@@ -15,7 +15,7 @@ public class Server {
         System.out.println("BINGO Server Started!!");
         numPlayers = 0;
         try {
-            ss = new ServerSocket(5000);
+            ss = new ServerSocket(2000);
         } catch (IOException io) {
             System.out.println("IOException Occurred in BINGO Server constructor !! -> " + io);
         }

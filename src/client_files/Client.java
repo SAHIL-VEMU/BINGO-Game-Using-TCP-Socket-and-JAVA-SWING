@@ -447,7 +447,7 @@ public class Client {
         public ClientSideConnection(String serverIP) {
             System.out.println("----Client----");
             try {
-                socket = new Socket(InetAddress.getByName(serverIP), 5000);
+                socket = new Socket(InetAddress.getByName(serverIP), 2000);
                 dataIn = new DataInputStream(socket.getInputStream());
                 // dataOut = new DataOutputStream(socket.getOutputStream());
                 PlayerID = dataIn.readInt();

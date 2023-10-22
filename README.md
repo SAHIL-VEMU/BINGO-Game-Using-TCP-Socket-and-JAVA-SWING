@@ -14,12 +14,12 @@ This is a simple BINGO game built using Java Swing and TCP sockets.
 1. Start the server by compiling & running the `Server.java` class.
 ```
     javac src/server_files/Server.java
-    java src.server_file.Server.java
+    java src.server_files.Server
 ```
 2. Start two clients by compiling & running the `Client.java` class twice, specifying the IP address of the server as a command-line argument. (else default localhost)
 ```
     javac src/client_files/Client.java
-    java src.client_file.Client.java
+    java src.client_files.Client
 ```
 
 ## Gameplay
